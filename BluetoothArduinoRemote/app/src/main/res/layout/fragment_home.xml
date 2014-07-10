@@ -9,19 +9,12 @@
     tools:context=".Home$PlaceholderFragment"
     android:background="#ffd4d4d4">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView" />
-
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Output 1"
         android:id="@+id/switch1"
         android:layout_marginTop="114dp"
-        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:checked="false"
         android:clickable="false"
